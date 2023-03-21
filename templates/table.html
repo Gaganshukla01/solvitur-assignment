@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block body %}
+<!-- table -->
+<style>
+    body{
+        background: url('../static/img/bg2.avif');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+ 
+</style>
+<div style="height: 79vh;  margin-top: 74px;">
+    <table class="table table-striped">
+        <tr class="bg-info">
+            <th>First</th>
+            <th>Last</th>
+            <th>Email</th>
+        </tr>
+        <tbody style="font-size: small;" id="myTable">
+
+        </tbody>
+    </table>
+</div>
+<!-- table -->
+
+{% endblock %}
